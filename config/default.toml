@@ -1,0 +1,8 @@
+mode = "paper"
+database_url = "sqlite::memory:"
+
+# Optional secrets (prefer .env or environment)
+# exchange_api_key = ""
+# exchange_api_secret = ""
+
+
