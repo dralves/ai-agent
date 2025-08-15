@@ -6,6 +6,10 @@ mod config;
 use config::AppConfig;
 use std::path::Path;
 mod db;
+#[allow(dead_code)]
+mod domain;
+#[allow(dead_code)]
+mod ports;
 
 #[derive(Parser, Debug)]
 #[command(name = "ai-trader", version, about = "AI Trading Agent CLI")] 

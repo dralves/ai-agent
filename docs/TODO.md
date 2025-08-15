@@ -13,7 +13,7 @@ Legend: [ ] not started, [~] in progress, [x] done, (P0/P1/P2) priority
 Acceptance: `cargo test` passes; binary starts with `--help` (met)
 
 ## Milestone M1 – Architecture Scaffolding (P0)
-- [ ] Define core traits (hexagonal ports):
+- [x] Define core traits (hexagonal ports):
   - [ ] `MarketDataSource` (subscribe klines/ticks, fetch historical)
   - [ ] `NewsSource` (poll/stream headlines)
   - [ ] `SentimentAnalyzer` (score -1..1)
@@ -22,9 +22,9 @@ Acceptance: `cargo test` passes; binary starts with `--help` (met)
   - [ ] `Executor` (paper/live execute, fees)
   - [ ] `RiskManager` (validate/scale/override orders)
   - [ ] `PortfolioStore` (balances, positions, trades)
-- [ ] Define common domain types: `Candle`, `Tick`, `Order`, `Trade`, `Position`, `Side`, `Symbol`, `Decision`
+- [x] Define common domain types: `Candle`, `Tick`, `Order`, `Trade`, `Position`, `Side`, `Symbol`, `Decision`
 
-Acceptance: Compiles with trait stubs and domain models
+Acceptance: Compiles with trait stubs and domain models (met)
 
 ## Milestone M2 – Data Ingestion (P0)
 - [ ] Exchange selection: Binance (spot) initial target
